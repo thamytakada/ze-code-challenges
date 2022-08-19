@@ -9,15 +9,18 @@
 
 #
 ### Criterio utilizado para a priorização:
-- A escolha dos cenários foi orientada ao fluxo minimo necessario para concluir uma compra
-no Zé delivery.  
-Não há alternativas de fluxos para os fluxos selecionados.
+A escolha dos cenários foi feita considerando:
+- Fluxos principais e insubstituíveis para realizar uma compra no Zé Delivery.
+Olhando para a jornada, identifiquei os cenários que são necessários para o usuário fazer uma compra e que não existiam um caminho alternativo, como por exemplo, adicionar itens a sacola. Não existe uma jornada de compra sem esse cenário. 
+Agora a busca, visualização do item entre outros, é possível ser feita de algumas formas. 
+
+Obs: Para a construção dos cenários, utilizei a boa prática de focar no comportamental e não no procedural. Aqui na Provu, o chapter de QA prefire usar o procedural, eu particularmente acho que fica mais limpo e organizado o comportamental. Mas isso é relativo ao contexto da estrutura de testes de cada empresa (:
 
 #
 ### Escolha da stack
 - *Ruby*  - optei pela linguagem por ser uma linguagem performática e de fácil manutenção.
 Com foco na simplicidade e produtividade 
-Possui uma biblioteca vasta, sintaxe elegante e de leitura natural.
+Possui uma biblioteca vasta, sintaxe enxuta e de leitura natural.
 
 - *Capybara*  -  Auxilia nas validações web, simulando como um usuário real.
 Abstrai a conexão entre o browser e o código.
@@ -35,8 +38,8 @@ Abstrai a conexão entre o browser e o código.
  Para rodar a aplicação é necessário seguir os seguintes passos:
   
 ```
-Ruby 2.7.2 - https://rubyinstaller.org/downloads/
-Chromedriver -https://chromedriver.chromium.org/downloads
+Baixar e instalar o Ruby 2.7.2 - https://rubyinstaller.org/downloads/
+Baixar, extrair o arquivo e adicionar na pasta de drivers o Chromedriver -https://chromedriver.chromium.org/downloads
 ```
 
 #### obs: instalar a versão compatível do chromedriver com sua versão do Google Chrome e configurá-lo no PATH
@@ -48,7 +51,7 @@ gem install bundler
 ```
 
 ## Comandos para rodar o projeto 
-Clonar o repositório e navegar até a pasta 'Desafio_ze' 
+Clonar o repositório e navegar até a pasta 'ze-code-challenges' 
 
 Instalar as bibliotecas na pasta do projeto: 
 
