@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'capybara'
+gem 'cpf_faker'
 gem 'cucumber', '>= 5.1.3'
 gem 'faker'
 gem 'gherkin'
@@ -14,4 +15,3 @@ gem 'selenium-webdriver'
 gem 'site_prism'
 gem 'httparty'
 gem 'rspec'
-
