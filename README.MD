@@ -11,7 +11,7 @@
 ### Criterio utilizado para a priorização:
 A escolha dos cenários foi feita considerando:
 - Fluxos principais e insubstituíveis para realizar uma compra no Zé Delivery.
-Olhando para a jornada, identifiquei os cenários que são necessários para o usuário fazer uma compra e que não existiam um caminho alternativo, como por exemplo, adicionar itens a sacola. Não existe uma jornada de compra sem esse cenário. 
+Olhando para a jornada, identifiquei os cenários que são necessários para o usuário fazer uma compra e que não exista um caminho alternativo, como por exemplo, adicionar itens a sacola. Não existe uma jornada de compra sem esse cenário e não existem formas alternativas de ser feito. 
 Agora a busca, visualização do item entre outros, é possível ser feita de algumas formas. 
 
 Obs: Para a construção dos cenários, utilizei a boa prática de focar no comportamental e não no procedural. Aqui na Provu, o chapter de QA prefire usar o procedural, eu particularmente acho que fica mais limpo e organizado o comportamental. Mas isso é relativo ao contexto da estrutura de testes de cada empresa (:
