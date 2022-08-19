@@ -1,0 +1,4 @@
+# config/cucumber.yml
+
+default: --no-source --color --format pretty --format html --out report.html
+
